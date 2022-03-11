@@ -95,8 +95,12 @@
 ## 检测
 <br>
         
-### 2D 目标检测(2D Object Detection)
+### 2D目标检测(2D Object Detection)
 
+**Focal and Global Knowledge Distillation for Detectors(探测器的焦点和全局知识蒸馏)**<br>
+*keywords: Object Detection, Knowledge Distillation*<br>
+[paper](https://arxiv.org/abs/2111.11837) | [code](https://github.com/yzd-v/FGD)<br>
+<br>
 **Unknown-Aware Object Detection: Learning What You Don't Know from Videos in the Wild(未知感知对象检测：从野外视频中学习你不知道的东西)**<br>
 [paper](https://arxiv.org/abs/2203.03800) | [code](https://github.com/deeplearning-wisc/stud)<br>
 <br>
@@ -113,6 +117,9 @@
 
 ### 3D目标检测(3D object detection)
 
+**Canonical Voting: Towards Robust Oriented Bounding Box Detection in 3D Scenes(在 3D 场景中实现稳健的定向边界框检测)**<br>
+[paper](https://arxiv.org/abs/2011.12001) | [code](https://github.com/qq456cvb/CanonicalVoting)<br>
+<br>
 **A Versatile Multi-View Framework for LiDAR-based 3D Object Detection with Guidance from Panoptic Segmentation(在全景分割的指导下，用于基于 LiDAR 的 3D 对象检测的多功能多视图框架)**<br>
 *keywords: 3D Object Detection with Point-based Methods, 3D Object Detection with Grid-based Methods, Cluster-free 3D Panoptic Segmentation, CenterPoint 3D Object Detection*<br>
 [paper](https://arxiv.org/abs/2203.02133)<br>
@@ -126,6 +133,12 @@
 
 **Zoom In and Out: A Mixed-scale Triplet Network for Camouflaged Object Detection(放大和缩小：用于伪装目标检测的混合尺度三元组网络)**<br>
 [paper](https://arxiv.org/abs/2203.02688) | [code](https://github.com/lartpang/ZoomNet)<br>
+<br>
+
+### 关键点检测(Keypoint Detection)
+
+**UKPGAN: A General Self-Supervised Keypoint Detector(一个通用的自监督关键点检测器)**<br>
+[paper](https://arxiv.org/abs/2011.11974) | [code](https://github.com/qq456cvb/UKPGAN)<br>
 <br>
 
 <a name="Segmentation"></a>
@@ -218,6 +231,9 @@
 
 ### 深度估计(Depth Estimation)
 
+**ChiTransformer:Towards Reliable Stereo from Cues(从线索走向可靠的立体声)**<br>
+[paper](https://arxiv.org/abs/2203.04554)<br>
+<br>
 **Rethinking Depth Estimation for Multi-View Stereo: A Unified Representation and Focal Loss(重新思考多视图立体的深度估计：统一表示和焦点损失)**<br>
 [paper](https://arxiv.org/abs/2201.01501) | [code](https://github.com/prstrive/UniMVSNet)<br>
 <br>
@@ -290,6 +306,9 @@
 
 ### 图像翻译(Image Translation)
 
+**FlexIT: Towards Flexible Semantic Image Translation(迈向灵活的语义图像翻译)**<br>
+[paper](https://arxiv.org/abs/2203.04705)<br>
+<br>
 **Exploring Patch-wise Semantic Relation for Contrastive Learning in Image-to-Image Translation Tasks(探索图像到图像翻译任务中对比学习的补丁语义关系)**<br>
 *keywords: image translation, knowledge transfer,Contrastive learning*<br>
 [paper](https://arxiv.org/pdf/2203.01532.pdf)<br>
@@ -421,6 +440,9 @@
 **Label-Only Model Inversion Attacks via Boundary Repulsion(通过边界排斥的仅标签模型反转攻击)**<br>
 [paper](https://arxiv.org/pdf/2203.01925.pdf)<br>
 <br>
+**Dynamic Dual-Output Diffusion Models(动态双输出扩散模型)**<br>
+[paper](https://arxiv.org/abs/2203.04304)<br>
+<br>
 **Exploring Dual-task Correlation for Pose Guided Person Image Generation(探索姿势引导人物图像生成的双任务相关性)**<br>
 [paper](https://arxiv.org/abs/2203.02910) | [code](https://github.com/PangzeCheung/Dual-task-Pose-Transformer-Network)<br>
 <br>
@@ -501,6 +523,13 @@
 
 **Point-NeRF: Point-based Neural Radiance Fields(基于点的神经辐射场)**<br>
 [paper](https://arxiv.org/pdf/2201.08845.pdf) | [code](https://github.com/Xharlie/pointnerf)<br>
+<br>
+
+### 知识蒸馏(Knowledge Distillation)
+
+**Focal and Global Knowledge Distillation for Detectors(探测器的焦点和全局知识蒸馏)**<br>
+*keywords: Object Detection, Knowledge Distillation*<br>
+[paper](https://arxiv.org/abs/2111.11837) | [code](https://github.com/yzd-v/FGD)<br>
 <br>
 
 <a name="NNS"></a>
@@ -640,6 +669,10 @@
 *keywords: Vision-language representation learning, Contrastive Learning*<br>
 [paper](https://arxiv.org/abs/2202.10401) | [code](https://github.com/uta-smile/TCL;)<br>
 <br>
+**How many Observations are Enough? Knowledge Distillation for Trajectory Forecasting(多少个观察就足够了？ 轨迹预测的知识蒸馏)**<br>
+*keywords: Knowledge Distillation, trajectory forecasting*<br>
+[paper](https://arxiv.org/abs/2203.04781)<br>
+<br>
 
 <a name="Dataset"></a>
 ## 数据集(Dataset)
@@ -741,14 +774,24 @@
 [paper](https://arxiv.org/abs/2202.00455) | [code](https://github.com/gyfastas/HCSC)<br>
 <br>
 
-<a name="Robotic"></a>
-## 机器人(Robotic)
+<a name="MetaLearning"></a>
+## 元学习(Meta Learning)
 <br>
         
 ### 场景图理解(Scene Graph Understanding)
 
 **Crafting Better Contrastive Views for Siamese Representation Learning(为连体表示学习制作更好的对比视图)**<br>
 [paper](https://arxiv.org/pdf/2202.03278.pdf) | [code](https://github.com/xyupeng/ContrastiveCrop)<br>
+<br>
+
+<a name="Robotic"></a>
+## 机器人(Robotic)
+<br>
+        
+### 场景图理解(Scene Graph Understanding)
+
+**What Matters For Meta-Learning Vision Regression Tasks?(元学习视觉回归任务的重要性是什么？)**<br>
+[paper](https://arxiv.org/abs/2203.04905)<br>
 <br>
 
 <a name="self-supervisedlearning"></a>
