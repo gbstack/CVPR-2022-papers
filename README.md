@@ -97,6 +97,18 @@
         
 ### 2D目标检测(2D Object Detection)
 
+**Oriented RepPoints for Aerial Object Detection(面向空中目标检测的 RepPoints)(**小目标检测**)**<br>
+[paper](https://arxiv.org/abs/2105.11111) | [code](https://github.com/LiWentomng/OrientedRepPoints)<br>
+<br>
+**Confidence Propagation Cluster: Unleash Full Potential of Object Detectors(信心传播集群：释放物体检测器的全部潜力)**<br>
+[paper](https://arxiv.org/abs/2112.00342)<br>
+<br>
+**Semantic-aligned Fusion Transformer for One-shot Object Detection(用于一次性目标检测的语义对齐融合转换器)**<br>
+[paper](https://arxiv.org/abs/2203.09093)<br>
+<br>
+**A Dual Weighting Label Assignment Scheme for Object Detection(一种用于目标检测的双重加权标签分配方案)**<br>
+[paper](https://arxiv.org/abs/2203.09730) | [code](https://github.com/strongwolf/DW)<br>
+<br>
 **MUM : Mix Image Tiles and UnMix Feature Tiles for Semi-Supervised Object Detection(混合图像块和 UnMix 特征块用于半监督目标检测)**<br>
 [paper](https://arxiv.org/abs/2111.10958) | [code](https://github.com/JongMokKim/mix-unmix)<br>
 <br>
@@ -126,6 +138,24 @@
 
 ### 3D目标检测(3D object detection)
 
+**TransFusion: Robust LiDAR-Camera Fusion for 3D Object Detection with Transformers(用于 3D 对象检测的稳健 LiDAR-Camera Fusion 与 Transformer)**<br>
+[paper](https://arxiv.org/abs/2203.11496) | [code](https://github.com/XuyangBai/TransFusion)<br>
+<br>
+**Not All Points Are Equal: Learning Highly Efficient Point-based Detectors for 3D LiDAR Point Clouds(学习用于 3D LiDAR 点云的高效基于点的检测器)**<br>
+[paper](https://arxiv.org/abs/2203.11139) | [code](https://github.com/yifanzhang713/IA-SSD)<br>
+<br>
+**Sparse Fuse Dense: Towards High Quality 3D Detection with Depth Completion(迈向具有深度完成的高质量 3D 检测)**<br>
+[paper](https://arxiv.org/abs/2203.09780)<br>
+<br>
+**MonoDTR: Monocular 3D Object Detection with Depth-Aware Transformer(使用深度感知 Transformer 的单目 3D 对象检测)**<br>
+[paper](https://arxiv.org/abs/2203.10981) | [code](https://github.com/kuanchihhuang/MonoDTR)<br>
+<br>
+**Voxel Set Transformer: A Set-to-Set Approach to 3D Object Detection from Point Clouds(从点云进行 3D 对象检测的 Set-to-Set 方法)**<br>
+[paper](https://arxiv.org/abs/2203.10314) | [code](https://github.com/skyhehe123/VoxSeT)<br>
+<br>
+**VISTA: Boosting 3D Object Detection via Dual Cross-VIew SpaTial Attention**<br>
+[paper](https://arxiv.org/abs/2203.09704) | [code](https://github.com/Gorilla-Lab-SCUT/VISTA)<br>
+<br>
 **MonoJSG: Joint Semantic and Geometric Cost Volume for Monocular 3D Object Detection(单目 3D 目标检测的联合语义和几何成本量)**<br>
 [paper](https://arxiv.org/abs/2203.08563) | [code](https://github.com/lianqing11/MonoJSG)<br>
 <br>
@@ -176,6 +206,9 @@
 
 ### 车道线检测(Lane Detection)
 
+**CLRNet: Cross Layer Refinement Network for Lane Detection(用于车道检测的跨层细化网络)**<br>
+[paper](https://arxiv.org/abs/2203.10350)<br>
+<br>
 **Rethinking Efficient Lane Detection via Curve Modeling(通过曲线建模重新思考高效车道检测)**<br>
 *keywords: Segmentation-based Lane Detection, Point Detection-based Lane Detection, Curve-based Lane Detection, autonomous driving*<br>
 [paper](https://arxiv.org/abs/2203.02431) | [code](https://github.com/voldemortX/pytorch-auto-drive)<br>
@@ -211,6 +244,9 @@
 
 ### 全景分割(Panoptic Segmentation)
 
+**Panoptic SegFormer: Delving Deeper into Panoptic Segmentation with Transformers(使用 Transformers 深入研究全景分割)**<br>
+[paper](https://arxiv.org/abs/2109.03814) | [code](https://github.com/zhiqi-li/Panoptic-SegFormer)<br>
+<br>
 **Bending Reality: Distortion-aware Transformers for Adapting to Panoramic Semantic Segmentation(弯曲现实：适应全景语义分割的失真感知Transformer)**<br>
 *keywords: Semanticand panoramic segmentation, Unsupervised domain adaptation, Transformer*<br>
 [paper](https://arxiv.org/abs/2203.01452) | [code](https://github.com/jamycheung/Trans4PASS)<br>
@@ -218,6 +254,15 @@
 
 ### 语义分割(Semantic Segmentation)
 
+**Class-Balanced Pixel-Level Self-Labeling for Domain Adaptive Semantic Segmentation(用于域自适应语义分割的类平衡像素级自标记)**<br>
+[paper](https://arxiv.org/abs/2203.09744) | [code](https://github.com/lslrh/CPSL)<br>
+<br>
+**Regional Semantic Contrast and Aggregation for Weakly Supervised Semantic Segmentation(弱监督语义分割的区域语义对比和聚合)**<br>
+[paper](https://arxiv.org/abs/2203.09653) | [code](https://github.com/maeve07/RCA.git)<br>
+<br>
+**Tree Energy Loss: Towards Sparsely Annotated Semantic Segmentation(走向稀疏注释的语义分割)**<br>
+[paper](https://arxiv.org/abs/2203.10739) | [code](https://github.com/megviiresearch/TEL)<br>
+<br>
 **Scribble-Supervised LiDAR Semantic Segmentation**<br>
 [paper](https://arxiv.org/abs/2203.08537) | [code](http://github.com/ouenal/scribblekitti)<br>
 <br>
@@ -258,6 +303,12 @@
 
 ### 实例分割(Instance Segmentation)
 
+**ContrastMask: Contrastive Learning to Segment Every Thing(对比学习分割每件事)**<br>
+[paper](https://arxiv.org/abs/2203.09775)<br>
+<br>
+**Discovering Objects that Can Move(发现可以移动的物体)**<br>
+[paper](https://arxiv.org/abs/2203.10159) | [code](https://github.com/zpbao/Discovery_Obj_Move/)<br>
+<br>
 **E2EC: An End-to-End Contour-based Method for High-Quality High-Speed Instance Segmentation(一种基于端到端轮廓的高质量高速实例分割方法)**<br>
 [paper](https://arxiv.org/abs/2203.04074) | [code](https://github.com/zhang-tao-whu/e2ec)<br>
 <br>
@@ -275,18 +326,67 @@
 [paper](https://arxiv.org/abs/2201.00487) | [code](https://github.com/wjn922/ReferFormer)<br>
 <br>
 
+### 密集预测(Dense Prediction)
+
+**DenseCLIP: Language-Guided Dense Prediction with Context-Aware Prompting(具有上下文感知提示的语言引导密集预测)**<br>
+[paper](https://arxiv.org/abs/2112.01518) | [code](https://github.com/raoyongming/DenseCLIP)<br>
+<br>
+
+<a name="VideoProcessing"></a>
+## 视频处理(Video Processing)
+<br>
+        
+### 视频处理(Video Processing)
+
+**Neural Compression-Based Feature Learning for Video Restoration(用于视频复原的基于神经压缩的特征学习)**<br>
+[paper](https://arxiv.org/abs/2203.09208)<br>
+<br>
+
+### 视频编辑(Video Editing)
+
+**M3L: Language-based Video Editing via Multi-Modal Multi-Level Transformers(M3L：通过多模式多级transformer进行基于语言的视频编辑)**<br>
+[paper](https://arxiv.org/abs/2104.01122)<br>
+<br>
+
+### 视频生成/视频合成(Video Generation/Video Synthesis)
+
+**Depth-Aware Generative Adversarial Network for Talking Head Video Generation(用于说话头视频生成的深度感知生成对抗网络)**<br>
+[paper](https://arxiv.org/abs/2203.06605) | [code](https://github.com/harlanhong/CVPR2022-DaGAN)<br>
+<br>
+**Show Me What and Tell Me How: Video Synthesis via Multimodal Conditioning(告诉我什么并告诉我如何：通过多模式调节进行视频合成)**<br>
+[paper](https://arxiv.org/abs/2203.02573) | [code](https://github.com/snap-research/MMVID)<br>
+<br>
+
 <a name="Estimation"></a>
 ## 估计(Estimation)
 <br>
         
 ### 光流/运动估计(Optical Flow/Motion Estimation)
 
+**Global Matching with Overlapping Attention for Optical Flow Estimation(具有重叠注意力的全局匹配光流估计)**<br>
+[paper](https://arxiv.org/abs/2203.11335) | [code](https://github.com/xiaofeng94/GMFlowNet)<br>
+<br>
 **CamLiFlow: Bidirectional Camera-LiDAR Fusion for Joint Optical Flow and Scene Flow Estimation(用于联合光流和场景流估计的双向相机-LiDAR 融合)**<br>
 [paper](https://arxiv.org/abs/2111.10502)<br>
 <br>
 
 ### 深度估计(Depth Estimation)
 
+**Practical Stereo Matching via Cascaded Recurrent Network with Adaptive Correlation(基于自适应相关的级联循环网络的实用立体匹配)**<br>
+[paper](https://arxiv.org/abs/2203.11483)<br>
+<br>
+**Depth Estimation by Combining Binocular Stereo and Monocular Structured-Light(结合双目立体和单目结构光的深度估计)**<br>
+[paper](https://arxiv.org/abs/2203.10493) | [code](https://github.com/YuhuaXu/MonoStereoFusion)<br>
+<br>
+**RGB-Depth Fusion GAN for Indoor Depth Completion(用于室内深度完成的 RGB 深度融合 GAN)**<br>
+[paper](https://arxiv.org/abs/2203.10856)<br>
+<br>
+**Revisiting Domain Generalized Stereo Matching Networks from a Feature Consistency Perspective(从特征一致性的角度重新审视域广义立体匹配网络)**<br>
+[paper](https://arxiv.org/abs/2203.10887)<br>
+<br>
+**Deep Depth from Focus with Differential Focus Volume(具有不同焦点体积的焦点深度)**<br>
+[paper](https://arxiv.org/abs/2112.01712)<br>
+<br>
 **ChiTransformer:Towards Reliable Stereo from Cues(从线索走向可靠的立体声)**<br>
 [paper](https://arxiv.org/abs/2203.04554)<br>
 <br>
@@ -315,6 +415,9 @@
 
 ### 人体解析/人体姿态估计(Human Parsing/Human Pose Estimation)
 
+**Ray3D: ray-based 3D human pose estimation for monocular absolute 3D localization(用于单目绝对 3D 定位的基于射线的 3D 人体姿态估计)**<br>
+[paper](https://arxiv.org/abs/2203.11471) | [code](https://github.com/YxZhxn/Ray3D)<br>
+<br>
 **Capturing Humans in Motion: Temporal-Attentive 3D Human Pose and Shape Estimation from Monocular Video(捕捉运动中的人类：来自单目视频的时间注意 3D 人体姿势和形状估计)**<br>
 [paper](https://arxiv.org/abs/2203.08534)<br>
 <br>
@@ -347,6 +450,9 @@
         
 ### 超分辨率(Super Resolution)
 
+**Local Texture Estimator for Implicit Representation Function(隐式表示函数的局部纹理估计器)**<br>
+[paper](https://arxiv.org/abs/2111.08918)<br>
+<br>
 **A Text Attention Network for Spatial Deformation Robust Scene Text Image Super-resolution(一种用于空间变形鲁棒场景文本图像超分辨率的文本注意网络)**<br>
 [paper](https://arxiv.org/abs/2203.09388) | [code](https://github.com/mjq11302010044/TATT)<br>
 <br>
@@ -372,6 +478,15 @@
 
 ### 图像复原/图像增强/图像重建(Image Restoration/Image Reconstruction)
 
+**Exploring and Evaluating Image Restoration Potential in Dynamic Scenes(探索和评估动态场景中的图像复原潜力)**<br>
+[paper](https://arxiv.org/abs/2203.11754)<br>
+<br>
+**Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems through Stochastic Contraction(通过随机收缩加速逆问题的条件扩散模型)**<br>
+[paper](https://arxiv.org/abs/2112.05146)<br>
+<br>
+**Mask-guided Spectral-wise Transformer for Efficient Hyperspectral Image Reconstruction(用于高效高光谱图像重建的掩模引导光谱变换器)**<br>
+[paper](https://arxiv.org/abs/2111.07910) | [code](https://github.com/caiyuanhao1998/MST/)<br>
+<br>
 **Restormer: Efficient Transformer for High-Resolution Image Restoration(用于高分辨率图像复原的高效transformer)**<br>
 [paper](https://arxiv.org/abs/2111.09881) | [code](https://github.com/swz30/Restormer)<br>
 <br>
@@ -381,8 +496,11 @@
 
 ### 图像去噪/去模糊/去雨去雾(Image Denoising)
 
-**Neural Compression-Based Feature Learning for Video Restoration(用于视频复原的基于神经压缩的特征学习)(**视频处理**)**<br>
-[paper](https://arxiv.org/abs/2203.09208)<br>
+**AP-BSN: Self-Supervised Denoising for Real-World Images via Asymmetric PD and Blind-Spot Network(通过非对称 PD 和盲点网络对真实世界图像进行自监督去噪)**<br>
+[paper](https://arxiv.org/abs/2203.11799) | [code](https://github.com/wooseoklee4/AP-BSN)<br>
+<br>
+**IDR: Self-Supervised Image Denoising via Iterative Data Refinement(通过迭代数据细化的自监督图像去噪)**<br>
+[paper](https://arxiv.org/abs/2111.14358) | [code](https://github.com/zhangyi-3/IDR)<br>
 <br>
 **Blind2Unblind: Self-Supervised Image Denoising with Visible Blind Spots(具有可见盲点的自监督图像去噪)**<br>
 [paper](https://arxiv.org/abs/2203.06967) | [code](https://github.com/demonsjin/Blind2Unblind)<br>
@@ -414,6 +532,9 @@
 
 ### 图像翻译(Image Translation)
 
+**Globetrotter: Connecting Languages by Connecting Images(通过连接图像连接语言)**<br>
+[paper](https://arxiv.org/abs/2012.04631)<br>
+<br>
 **QS-Attn: Query-Selected Attention for Contrastive Learning in I2I Translation(图像翻译中对比学习的查询选择注意)**<br>
 [paper](https://arxiv.org/abs/2203.08483) | [code](https://github.com/sapphire497/query-selected-attention)<br>
 <br>
@@ -444,6 +565,15 @@
         
 ### 人脸(Face)
 
+**Cross-Modal Perceptionist: Can Face Geometry be Gleaned from Voices?(跨模态感知者：可以从声音中收集面部几何形状吗？)**<br>
+[paper](https://arxiv.org/abs/2203.09824)<br>
+<br>
+**Portrait Eyeglasses and Shadow Removal by Leveraging 3D Synthetic Data(利用 3D 合成数据去除人像眼镜和阴影)**<br>
+[paper](https://arxiv.org/abs/2203.10474) | [code](https://github.com/StoryMY/take-off-eyeglasses)<br>
+<br>
+**HP-Capsule: Unsupervised Face Part Discovery by Hierarchical Parsing Capsule Network(分层解析胶囊网络的无监督人脸部分发现)**<br>
+[paper](https://arxiv.org/abs/2203.10699)<br>
+<br>
 **FaceFormer: Speech-Driven 3D Facial Animation with Transformers(FaceFormer：带有transformer的语音驱动的 3D 面部动画)**<br>
 [paper](https://arxiv.org/abs/2112.05329) | [code](https://evelynfan.github.io/audio2face/)<br>
 <br>
@@ -462,6 +592,9 @@
 
 ### 人脸生成/合成/重建/编辑(Face Generation/Face Synthesis/Face Reconstruction/Face Editing)
 
+**FENeRF: Face Editing in Neural Radiance Fields(神经辐射场中的人脸编辑)**<br>
+[paper](https://arxiv.org/abs/2111.15490)<br>
+<br>
 **GCFSR: a Generative and Controllable Face Super Resolution Method Without Facial and GAN Priors(一种没有面部和 GAN 先验的生成可控人脸超分辨率方法)**<br>
 [paper](https://arxiv.org/abs/2203.07319)<br>
 <br>
@@ -488,6 +621,15 @@
         
 ### 目标跟踪(Object Tracking)
 
+**Transforming Model Prediction for Tracking(转换模型预测以进行跟踪)**<br>
+[paper](https://arxiv.org/abs/2203.11192) | [code](https://github.com/visionml/pytracking)<br>
+<br>
+**MixFormer: End-to-End Tracking with Iterative Mixed Attention(具有迭代混合注意力的端到端跟踪)**<br>
+[paper](https://arxiv.org/abs/2203.11082) | [code](https://github.com/MCG-NJU/MixFormer)<br>
+<br>
+**Unsupervised Domain Adaptation for Nighttime Aerial Tracking(夜间空中跟踪的无监督域自适应)**<br>
+[paper](https://arxiv.org/abs/2203.10541) | [code](https://github.com/vision4robotics/UDAT)<br>
+<br>
 **Iterative Corresponding Geometry: Fusing Region and Depth for Highly Efficient 3D Tracking of Textureless Objects(迭代对应几何：融合区域和深度以实现无纹理对象的高效 3D 跟踪)**<br>
 [paper](https://arxiv.org/abs/2203.05334) | [code](https://github.com/DLR- RM/3DObjectTracking)<br>
 <br>
@@ -518,6 +660,18 @@
 
 ### 行为识别/动作识别/检测/分割/定位(Action/Activity Recognition)
 
+**E2(GO)MOTION: Motion Augmented Event Stream for Egocentric Action Recognition(用于以自我为中心的动作识别的运动增强事件流)**<br>
+[paper](https://arxiv.org/abs/2112.03596)<br>
+<br>
+**Look for the Change: Learning Object States and State-Modifying Actions from Untrimmed Web Videos(寻找变化：从未修剪的网络视频中学习对象状态和状态修改操作)**<br>
+[paper](https://arxiv.org/abs/2203.11637) | [code](https://github.com/zju-vipa/MEAT-TIL)<br>
+<br>
+**DirecFormer: A Directed Attention in Transformer Approach to Robust Action Recognition(鲁棒动作识别的 Transformer 方法中的定向注意)**<br>
+[paper](https://arxiv.org/abs/2203.10233)<br>
+<br>
+**Self-supervised Video Transformer(自监督视频transformer)**<br>
+[paper](https://arxiv.org/abs/2112.01514) | [code](https://git.io/J1juJ)<br>
+<br>
 **Spatio-temporal Relation Modeling for Few-shot Action Recognition(小样本动作识别的时空关系建模)**<br>
 [paper](https://arxiv.org/abs/2112.05132) | [code](https://github.com/Anirudh257/strm)<br>
 <br>
@@ -541,8 +695,17 @@
 [paper](https://arxiv.org/pdf/2203.01057.pdf)<br>
 <br>
 
+### 行人重识别/检测(Re-Identification/Detection)
+
+**Cascade Transformers for End-to-End Person Search(用于端到端人员搜索的级联transformer)**<br>
+[paper](https://arxiv.org/abs/2203.09642) | [code](https://github.com/Kitware/COAT)<br>
+<br>
+
 ### 图像/视频字幕(Image/Video Caption)
 
+**Open-Domain, Content-based, Multi-modal Fact-checking of Out-of-Context Images via Online Resources(通过在线资源对上下文外图像进行开放域、基于内容、多模式的事实检查)**<br>
+[paper](https://arxiv.org/abs/2112.00061) | [code](https://s-abdelnabi.github.io/OoC-multi-modal-fc/)<br>
+<br>
 **Hierarchical Modular Network for Video Captioning(用于视频字幕的分层模块化网络)**<br>
 [paper](https://arxiv.org/abs/2111.12476) | [code](https://github.com/MarcusNerva/HMN)<br>
 <br>
@@ -556,6 +719,9 @@
         
 ### 医学影像(Medical Imaging)
 
+**ACPL: Anti-curriculum Pseudo-labelling for Semi-supervised Medical Image Classification(半监督医学图像分类的反课程伪标签)**<br>
+[paper](https://arxiv.org/abs/2111.12918)<br>
+<br>
 **Vox2Cortex: Fast Explicit Reconstruction of Cortical Surfaces from 3D MRI Scans with Geometric Deep Neural Networks(使用几何深度神经网络从 3D MRI 扫描中快速显式重建皮质表面)**<br>
 [paper](https://arxiv.org/abs/2203.09446) | [code](https://github.com/ai-med/Vox2Cortex)<br>
 <br>
@@ -577,6 +743,12 @@
         
 ### 文本检测/识别/理解(Text Detection/Recognition/Understanding)
 
+**SwinTextSpotter: Scene Text Spotting via Better Synergy between Text Detection and Text Recognition(通过文本检测和文本识别之间更好的协同作用进行场景文本定位)**<br>
+[paper](https://arxiv.org/abs/2203.10209) | [code](https://github.com/mxin262/SwinTextSpotter)<br>
+<br>
+**Fourier Document Restoration for Robust Document Dewarping and Recognition(用于鲁棒文档去扭曲和识别的傅里叶文档恢复)**<br>
+[paper](https://arxiv.org/abs/2203.09910) | [code](https://sg-vilab.github.io/event/warpdoc/)<br>
+<br>
 **XYLayoutLM: Towards Layout-Aware Multimodal Networks For Visually-Rich Document Understanding(迈向布局感知多模式网络，以实现视觉丰富的文档理解)**<br>
 [paper](https://arxiv.org/abs/2203.06947)<br>
 <br>
@@ -587,6 +759,12 @@
         
 ### GAN/生成式/对抗式(GAN/Generative/Adversarial)
 
+**Subspace Adversarial Training(子空间对抗训练)**<br>
+[paper](https://arxiv.org/abs/2111.12229) | [code](https://github.com/nblt/Sub-AT)<br>
+<br>
+**DTA: Physical Camouflage Attacks using Differentiable Transformation Network(使用可微变换网络的物理伪装攻击)**<br>
+[paper](https://arxiv.org/abs/2203.09831) | [code](https://islab-ai.github.io/dta-cvpr2022/)<br>
+<br>
 **Improving the Transferability of Targeted Adversarial Examples through Object-Based Diverse Input(通过基于对象的多样化输入提高目标对抗样本的可迁移性)**<br>
 [paper](https://arxiv.org/abs/2203.09123) | [code](https://github.com/dreamflake/ODI)<br>
 <br>
@@ -619,10 +797,10 @@
 <br>
 
 <a name="IGIS"></a>
-## 图像生成/图像合成/视频生成(Image Generation/Image Synthesis/Video Generation)
+## 图像生成/图像合成(Image Generation/Image Synthesis)
 <br>
         
-### 图像生成/图像合成/视频生成(Image Generation/Image Synthesis/Video Generation)
+### 图像生成/图像合成(Image Generation/Image Synthesis)
 
 **Modulated Contrast for Versatile Image Synthesis(用于多功能图像合成的调制对比度)**<br>
 [paper](https://arxiv.org/abs/2203.09333) | [code](https://github.com/fnzhan/MoNCE)<br>
@@ -636,9 +814,6 @@
 **Playable Environments: Video Manipulation in Space and Time(可播放环境：空间和时间的视频操作)**<br>
 [paper](https://arxiv.org/abs/2203.01914) | [code](https://willi-menapace.github.io/playable-environments-website)<br>
 <br>
-**Depth-Aware Generative Adversarial Network for Talking Head Video Generation(用于说话头视频生成的深度感知生成对抗网络)**<br>
-[paper](https://arxiv.org/abs/2203.06605) | [code](https://github.com/harlanhong/CVPR2022-DaGAN)<br>
-<br>
 **FLAG: Flow-based 3D Avatar Generation from Sparse Observations(从稀疏观察中生成基于流的 3D 头像)**<br>
 [paper](https://arxiv.org/abs/2203.05789)<br>
 <br>
@@ -647,9 +822,6 @@
 <br>
 **Exploring Dual-task Correlation for Pose Guided Person Image Generation(探索姿势引导人物图像生成的双任务相关性)**<br>
 [paper](https://arxiv.org/abs/2203.02910) | [code](https://github.com/PangzeCheung/Dual-task-Pose-Transformer-Network)<br>
-<br>
-**Show Me What and Tell Me How: Video Synthesis via Multimodal Conditioning(告诉我什么并告诉我如何：通过多模式调节进行视频合成)**<br>
-[paper](https://arxiv.org/abs/2203.02573) | [code](https://github.com/snap-research/MMVID)<br>
 <br>
 **3D Shape Variational Autoencoder Latent Disentanglement via Mini-Batch Feature Swapping for Bodies and Faces(基于小批量特征交换的三维形状变化自动编码器潜在解纠缠)**<br>
 [paper](https://arxiv.org/pdf/2111.12448.pdf) | [code](https://github.com/simofoti/3DVAE-SwapDisentangled)<br>
@@ -670,12 +842,21 @@
         
 ### 三维视觉(3D Vision)
 
+**Deep 3D-to-2D Watermarking: Embedding Messages in 3D Meshes and Extracting Them from 2D Renderings(在 3D 网格中嵌入消息并从 2D 渲染中提取它们)**<br>
+[paper](https://arxiv.org/abs/2104.13450)<br>
+<br>
 **X -Trans2Cap: Cross-Modal Knowledge Transfer using Transformer for 3D Dense Captioning(使用 Transformer 进行 3D 密集字幕的跨模式知识迁移)**<br>
 [paper](https://arxiv.org/pdf/2203.00843.pdf)<br>
 <br>
 
 ### 点云(Point Cloud)
 
+**IDEA-Net: Dynamic 3D Point Cloud Interpolation via Deep Embedding Alignment(通过深度嵌入对齐的动态 3D 点云插值)**<br>
+[paper](https://arxiv.org/abs/2203.11590) | [code](https://github.com/ZENGYIMING-EAMON/IDEA-Net.git)<br>
+<br>
+**No Pain, Big Gain: Classify Dynamic Point Cloud Sequences with Static Models by Fitting Feature-level Space-time Surfaces(没有痛苦，收获很大：通过拟合特征级时空表面，用静态模型对动态点云序列进行分类)**<br>
+[paper](https://arxiv.org/abs/2203.11113) | [code](https://github.com/jx-zhong-for-academic-purpose/Kinet)<br>
+<br>
 **AutoGPart: Intermediate Supervision Search for Generalizable 3D Part Segmentation(通用 3D 零件分割的中间监督搜索)**<br>
 [paper](https://arxiv.org/abs/2203.06558)<br>
 <br>
@@ -704,6 +885,12 @@
 
 ### 三维重建(3D Reconstruction)
 
+**ϕ-SfT: Shape-from-Template with a Physics-Based Deformation Model(具有基于物理的变形模型的模板形状)**<br>
+[paper](https://arxiv.org/abs/2203.11938) | [code](https://4dqv.mpi-inf.mpg.de/phi-SfT/)<br>
+<br>
+**Input-level Inductive Biases for 3D Reconstruction(用于 3D 重建的输入级归纳偏差)**<br>
+[paper](https://arxiv.org/abs/2112.03243)<br>
+<br>
 **AutoSDF: Shape Priors for 3D Completion, Reconstruction and Generation(用于 3D 完成、重建和生成的形状先验)**<br>
 [paper](https://arxiv.org/abs/2203.09516)<br>
 <br>
@@ -730,6 +917,12 @@
 
 ### 场景重建/视图合成/新视角合成(Novel View Synthesis)
 
+**NeRFusion: Fusing Radiance Fields for Large-Scale Scene Reconstruction(用于大规模场景重建的融合辐射场)**<br>
+[paper](https://arxiv.org/abs/2203.11283)<br>
+<br>
+**GeoNeRF: Generalizing NeRF with Geometry Priors(用几何先验概括 NeRF)**<br>
+[paper](https://arxiv.org/abs/2111.13539) | [code](https://www.idiap.ch/paper/geonerf)<br>
+<br>
 **StyleMesh: Style Transfer for Indoor 3D Scene Reconstructions(室内 3D 场景重建的风格转换)**<br>
 [paper](https://arxiv.org/abs/2112.01530) | [code](https://github.com/lukasHoel/stylemesh)<br>
 <br>
@@ -795,6 +988,9 @@
 
 ### CNN
 
+**TVConv: Efficient Translation Variant Convolution for Layout-aware Visual Processing(用于布局感知视觉处理的高效翻译变体卷积)(动态卷积)**<br>
+[paper](https://arxiv.org/abs/2203.10489) | [code](https://github.com/JierunChen/TVConv)<br>
+<br>
 **On the Integration of Self-Attention and Convolution(自注意力和卷积的整合)**<br>
 [paper](https://arxiv.org/abs/2111.14556)<br>
 <br>
@@ -851,6 +1047,12 @@
 ## 数据处理(Data Processing)
 <br>
         
+### 数据处理(Data Processing)
+
+**Dataset Distillation by Matching Training Trajectories(通过匹配训练轨迹进行数据集蒸馏)(**数据集蒸馏**)**<br>
+[paper](https://arxiv.org/abs/2203.11932) | [code](https://github.com/GeorgeCazenavette/mtt-distillation)<br>
+<br>
+
 ### 数据增广(Data Augmentation)
 
 **TeachAugment: Data Augmentation Optimization Using Teacher Knowledge(使用教师知识进行数据增强优化)**<br>
@@ -861,6 +1063,12 @@
 [paper](https://arxiv.org/abs/2203.01441)<br>
 <br>
 
+### 归一化/正则化(Batch Normalization)
+
+**Delving into the Estimation Shift of Batch Normalization in a Network(深入研究网络中批量标准化的估计偏移)**<br>
+[paper](https://arxiv.org/abs/2203.10778) | [code](https://github.com/huangleiBuaa/XBNBlock)<br>
+<br>
+
 ### 图像聚类(Image Clustering)
 
 **RAMA: A Rapid Multicut Algorithm on GPU(GPU 上的快速多切算法)**<br>
@@ -869,6 +1077,12 @@
 
 ### 图像压缩(Image Compression)
 
+**Unified Multivariate Gaussian Mixture for Efficient Neural Image Compression(用于高效神经图像压缩的统一多元高斯混合)**<br>
+[paper](https://arxiv.org/abs/2203.10897) | [code](https://github.com/xiaosu-zhu/McQuic)<br>
+<br>
+**ELIC: Efficient Learned Image Compression with Unevenly Grouped Space-Channel Contextual Adaptive Coding(具有不均匀分组的空间通道上下文自适应编码的高效学习图像压缩)**<br>
+[paper](https://arxiv.org/abs/2203.10886)<br>
+<br>
 **The Devil Is in the Details: Window-based Attention for Image Compression(细节中的魔鬼：图像压缩的基于窗口的注意力)**<br>
 [paper](https://arxiv.org/abs/2203.08450) | [code](https://github.com/Googolxx/STF)<br>
 <br>
@@ -878,6 +1092,9 @@
 
 ### 异常检测(Anomaly Detection)
 
+**ViM: Out-Of-Distribution with Virtual-logit Matching(具有虚拟 logit 匹配的分布外)(**OOD检测**)**<br>
+[paper](https://arxiv.org/abs/2203.10807) | [code](https://github.com/haoqiwang/vim)<br>
+<br>
 **Generative Cooperative Learning for Unsupervised Video Anomaly Detection(用于无监督视频异常检测的生成式协作学习)**<br>
 [paper](https://arxiv.org/abs/2203.03962)<br>
 <br>
@@ -912,6 +1129,9 @@
 
 ### 噪声标签(Noisy Label)
 
+**Scalable Penalized Regression for Noise Detection in Learning with Noisy Labels(带有噪声标签的学习中噪声检测的可扩展惩罚回归)**<br>
+[paper](https://arxiv.org/abs/2203.07788) | [code](https://github.com/Yikai-Wang/SPR-LNL)<br>
+<br>
 **Scalable Penalized Regression for Noise Detection in Learning with Noisy Labels(Scalable Penalized Regression for Noise Detection in Learning with Noisy Labels)**<br>
 [paper](https://arxiv.org/abs/2203.07788) | [code](https://github.com/Yikai-Wang/SPR-LNL)<br>
 <br>
@@ -939,6 +1159,9 @@
         
 ### 视觉表征学习(Visual Representation Learning)
 
+**SimAN: Exploring Self-Supervised Representation Learning of Scene Text via Similarity-Aware Normalization(通过相似性感知归一化探索场景文本的自监督表示学习)**<br>
+[paper](https://arxiv.org/abs/2203.10492)<br>
+<br>
 **Exploring Set Similarity for Dense Self-supervised Representation Learning(探索密集自监督表示学习的集合相似性)**<br>
 [paper](https://arxiv.org/abs/2107.08712)<br>
 <br>
@@ -958,6 +1181,9 @@
 
 ### 视觉-语言（Vision-language）
 
+**An Empirical Study of Training End-to-End Vision-and-Language Transformers(培训端到端视觉和语言transformer的实证研究)**<br>
+[paper](https://arxiv.org/abs/2111.02387) | [code](https://github.com/zdou0830/METER)<br>
+<br>
 **Pseudo-Q: Generating Pseudo Language Queries for Visual Grounding(为视觉基础生成伪语言查询)**<br>
 [paper](https://arxiv.org/abs/2203.08481) | [code](https://github.com/LeapLabTHU/Pseudo-Q)<br>
 <br>
@@ -989,6 +1215,12 @@
         
 ### 视觉预测(Vision-based Prediction)
 
+**Remember Intentions: Retrospective-Memory-based Trajectory Prediction(记住意图：基于回顾性记忆的轨迹预测)**<br>
+[paper](https://arxiv.org/abs/2203.11474) | [code](https://github.com/MediaBrain-SJTU/MemoNet)<br>
+<br>
+**GaTector: A Unified Framework for Gaze Object Prediction(凝视对象预测的统一框架)**<br>
+[paper](https://arxiv.org/abs/2112.03549)<br>
+<br>
 **On Adversarial Robustness of Trajectory Prediction for Autonomous Vehicles(自动驾驶汽车轨迹预测的对抗鲁棒性)**<br>
 [paper](https://arxiv.org/abs/2201.05057) | [code](https://github.com/zqzqz/AdvTrajectoryPrediction)<br>
 <br>
@@ -1012,6 +1244,9 @@
         
 ### 数据集(Dataset)
 
+**M5Product: Self-harmonized Contrastive Learning for E-commercial Multi-modal Pretraining(电子商务多模态预训练的自协调对比学习)(多模态预训练数据集)**<br>
+[paper](https://arxiv.org/abs/2109.04275)<br>
+<br>
 **FERV39k: A Large-Scale Multi-Scene Dataset for Facial Expression Recognition in Videos(用于视频中面部表情识别的大规模多场景数据集)**<br>
 [paper](https://arxiv.org/abs/2203.09463)<br>
 <br>
@@ -1058,6 +1293,12 @@
         
 ### 持续学习(Continual Learning/Life-long Learning)
 
+**Meta-attention for ViT-backed Continual Learning(ViT 支持的持续学习的元注意力)**<br>
+[paper](https://arxiv.org/abs/2203.11684) | [code](https://github.com/zju-vipa/MEAT-TIL)<br>
+<br>
+**Learning to Prompt for Continual Learning(学习提示持续学习)**<br>
+[paper](https://arxiv.org/abs/2112.08654) | [code](https://github.com/google-research/l2p)<br>
+<br>
 **On Generalizing Beyond Domains in Cross-Domain Continual Learning(关于跨域持续学习中的域外泛化)**<br>
 [paper](https://arxiv.org/abs/2203.03970)<br>
 <br>
@@ -1068,6 +1309,9 @@
         
 ### 场景图生成(Scene Graph Generation)
 
+**Stacked Hybrid-Attention and Group Collaborative Learning for Unbiased Scene Graph Generation(用于无偏场景图生成的堆叠混合注意力和组协作学习)**<br>
+[paper](https://arxiv.org/abs/2203.09811) | [code](https://github.com/dongxingning/SHA-GCL-for-SGG)<br>
+<br>
 **Classification-Then-Grounding: Reformulating Video Scene Graphs as Temporal Bipartite Graphs(将视频场景图重新格式化为时间二分图)**<br>
 *keywords: Video Scene Graph Generation, Transformer, Video Grounding*<br>
 [paper](https://arxiv.org/abs/2112.04222) | [code](https://github.com/Dawn-LX/VidVRD-tracklets)<br>
@@ -1079,6 +1323,9 @@
         
 ### 视觉定位/位姿估计(Visual Localization/Pose Estimation)
 
+**DiffPoseNet: Direct Differentiable Camera Pose Estimation(直接可微分相机位姿估计)**<br>
+[paper](https://arxiv.org/abs/2203.11174)<br>
+<br>
 **ZebraPose: Coarse to Fine Surface Encoding for 6DoF Object Pose Estimation(用于 6DoF 对象姿态估计的粗到细表面编码)**<br>
 [paper](https://arxiv.org/abs/2203.09418)<br>
 <br>
@@ -1131,6 +1378,9 @@
         
 ### 迁移学习/domain/自适应(Transfer Learning/Domain Adaptation)
 
+**Learning Affordance Grounding from Exocentric Images(从离中心图像中学习可供性基础)**<br>
+[paper](https://arxiv.org/abs/2203.09905) | [code](http://github.com/lhc1224/Cross-View-AG)<br>
+<br>
 **Category Contrast for Unsupervised Domain Adaptation in Visual Tasks(视觉任务中无监督域适应的类别对比)**<br>
 [paper](https://arxiv.org/abs/2106.02885)<br>
 <br>
@@ -1154,6 +1404,9 @@
         
 ### 度量学习(Metric Learning)
 
+**Hyperbolic Vision Transformers: Combining Improvements in Metric Learning(双曲线视觉transformer：结合度量学习的改进)**<br>
+[paper](https://arxiv.org/abs/2203.10833) | [code](https://github.com/htdt/hyp_metric)<br>
+<br>
 **Non-isotropy Regularization for Proxy-based Deep Metric Learning(基于代理的深度度量学习的非各向同性正则化)**<br>
 [paper](https://arxiv.org/abs/2203.08547) | [code](https://github.com/ExplainableML/NonIsotropicProxyDML)<br>
 <br>
@@ -1276,6 +1529,12 @@
         
 ### 联邦学习(Federated Learning)
 
+**FedDC: Federated Learning with Non-IID Data via Local Drift Decoupling and Correction(通过局部漂移解耦和校正与非 IID 数据进行联邦学习)**<br>
+[paper](https://arxiv.org/abs/2203.11751) | [code](https://github.com/gaoliang13/FedDC)<br>
+<br>
+**Federated Class-Incremental Learning(联邦类增量学习)**<br>
+[paper](https://arxiv.org/abs/2203.11473) | [code](https://github.com/conditionWang/FCIL)<br>
+<br>
 **Fine-tuning Global Model via Data-Free Knowledge Distillation for Non-IID Federated Learning(通过非 IID 联邦学习的无数据知识蒸馏微调全局模型)**<br>
 [paper](https://arxiv.org/abs/2203.09249)<br>
 <br>
@@ -1370,14 +1629,8 @@
 
 ###  应用(Application)
 
-**Language-based Video Editing via Multi-Modal Multi-Level Transformer**<br>
-[paper](https://arxiv.org/abs/2104.01122) | [code](None)<br>
-<br>
 **Embracing Single Stride 3D Object Detector with Sparse Transformer**<br>
 [paper](https://arxiv.org/abs/2112.06375) | [code](https://github.com/TuSimple/SST)<br>
-<br>
-**Mask-guided Spectral-wise Transformer for Efficient Hyperspectral Image Reconstruction**<br>
-[paper](https://arxiv.org/abs/2111.07910) | [code](https://github.com/caiyuanhao1998/MST)<br>
 <br>
 **Point-BERT: Pre-training 3D Point Cloud Transformers with Masked Point Modeling**<br>
 [paper](https://arxiv.org/abs/2111.14819) | [code](https://github.com/lulutang0608/Point-BERT)<br>
@@ -1388,8 +1641,8 @@
 **Splicing ViT Features for Semantic Appearance Transfer**<br>
 [paper](https://arxiv.org/abs/2201.00424) | [code](https://github.com/omerbt/Splice)<br>
 <br>
-**Self-supervised Video Transformer**<br>
-[paper](https://arxiv.org/abs/2112.01514) | [code](https://github.com/kahnchana/svt)<br>
+**Mask Transfiner for High-Quality Instance Segmentation**<br>
+[paper](https://arxiv.org/abs/2111.13673) | [code](https://github.com/SysCV/transfiner)<br>
 <br>
 
 <a name="None"></a>
@@ -1416,20 +1669,16 @@
 ##  实例分割(Instance Segmentation)
 <br>
         
+###  实例分割(Instance Segmentation)
+
+**Mask Transfiner for High-Quality Instance Segmentation**<br>
+[paper](https://arxiv.org/abs/2111.13673) | [code](https://github.com/SysCV/transfiner)<br>
+<br>
+
 ###  自监督实例分割
 
 **FreeSOLO: Learning to Segment Objects without Annotations**<br>
 [paper](https://arxiv.org/abs/2202.12181) | [code](None)<br>
-<br>
-
-<a name="None"></a>
-##  视频理解(Video Understanding)
-<br>
-        
-###  视频理解(Video Understanding)
-
-**Self-supervised Video Transformer**<br>
-[paper](https://arxiv.org/abs/2112.01514) | [code](https://github.com/kahnchana/svt)<br>
 <br>
 
 <a name="None"></a>
@@ -1555,26 +1804,6 @@
 <br>
 
 <a name="None"></a>
-##  高光谱图像重建(Hyperspectral Image Reconstruction)
-<br>
-        
-###  高光谱图像重建(Hyperspectral Image Reconstruction)
-
-**Mask-guided Spectral-wise Transformer for Efficient Hyperspectral Image Reconstruction**<br>
-[paper](https://arxiv.org/abs/2111.07910) | [code](https://github.com/caiyuanhao1998/MST)<br>
-<br>
-
-<a name="None"></a>
-##  水印(Watermarking)
-<br>
-        
-###  水印(Watermarking)
-
-**Deep 3D-to-2D Watermarking: Embedding Messages in 3D Meshes and Extracting Them from 2D Renderings**<br>
-[paper](https://arxiv.org/abs/2104.13450) | [code](None)<br>
-<br>
-
-<a name="None"></a>
 ##  数据集(Datasets)
 <br>
         
@@ -1593,9 +1822,6 @@
         
 ###  新任务(New Task)
 
-**Language-based Video Editing via Multi-Modal Multi-Level Transformer**<br>
-[paper](https://arxiv.org/abs/2104.01122) | [code](None)<br>
-<br>
 **It's About Time: Analog Clock Reading in the Wild**<br>
 [paper](https://arxiv.org/abs/2111.09162) | [code](https://github.com/charigyang/itsabouttime)<br>
 <br>
